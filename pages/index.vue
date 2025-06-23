@@ -1,6 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-	<h1>Hello world</h1>
-	<LazyThemeButton />
+  <div>
+    <h1>Hello world</h1>
+    <LazyThemeButton />
+  </div>
 </template>
