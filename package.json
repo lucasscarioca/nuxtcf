@@ -28,6 +28,6 @@
     "lint-staged": "^16.1.2"
   },
   "lint-staged": {
-    "*": "bun lint"
+    "*": "npm run lint"
   }
 }
