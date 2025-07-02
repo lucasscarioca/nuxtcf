@@ -1,6 +1,16 @@
-# Oak Nuxt Starter Template
+# Nuxtcf Starter Template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt + Cloudflare + a few more things. Why not NuxtHub or NuxFlare? Because I don't want a Cloudflare wrapper, specially not a paid one. Cloudflare is easy to use as it is, unlike the chaotic mess of AWS.
+
+## Stack
+
+- [x] Nuxt
+- [x] Cloudflare
+- [x] NuxtUI + Tailwindcss
+- [ ] Pinia
+- [ ] Better Auth
+- [ ] DrizzleORM
+- [ ] Stripe
 
 ## Setup
 
@@ -35,5 +45,3 @@ Locally preview production build:
 # npm
 npm run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
