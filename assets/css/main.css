@@ -1,2 +1,10 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
+
+body {
+  @apply selection:bg-primary selection:text-[var(--ui-text)];
+}
+
+html {
+  @apply scroll-smooth;
+}

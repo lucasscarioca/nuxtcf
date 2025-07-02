@@ -4,5 +4,10 @@ export default defineAppConfig({
       primary: 'orange',
       neutral: 'stone',
     },
+    card: {
+      slots: {
+        body: 'h-full w-full',
+      },
+    },
   },
 })
