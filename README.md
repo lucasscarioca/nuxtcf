@@ -11,6 +11,8 @@ Nuxt + Cloudflare + a few more things. Why not NuxtHub or NuxFlare? Because I do
 - [ ] Better Auth
 - [ ] DrizzleORM
 - [ ] Stripe
+- [ ] Tests
+- [ ] i18n
 
 ## Setup
 

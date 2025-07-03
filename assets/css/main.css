@@ -8,3 +8,7 @@ body {
 html {
   @apply scroll-smooth;
 }
+
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+}

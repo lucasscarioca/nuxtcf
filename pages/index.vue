@@ -114,27 +114,25 @@ const faqs = [
       <div class="container px-2 md:mx-auto flex h-16 items-center justify-between">
         <Logo />
         <div class="hidden md:flex items-center space-x-4">
-          <a
-            href="#pricing"
+          <UButton
+            variant="link"
+            to="#pricing"
             class="text-sm font-medium text-muted-foreground hover:text-muted"
           >
             Pricing
-          </a>
-          <a
-            href="#faq"
+          </UButton>
+          <UButton
+            variant="link"
+            to="#faq"
             class="text-sm font-medium text-muted-foreground hover:text-muted"
           >
             FAQ
-          </a>
-          <UButton variant="outline" as-child>
-            <ULink to="/login">
-              Sign In
-            </ULink>
           </UButton>
-          <UButton as-child>
-            <ULink to="/register">
-              Sign Up
-            </ULink>
+          <UButton variant="outline" to="/login">
+            Sign In
+          </UButton>
+          <UButton to="/register">
+            Sign Up
           </UButton>
         </div>
         <div class="md:hidden">
@@ -156,31 +154,27 @@ const faqs = [
                   <UButton
                     variant="ghost"
                     class="justify-start text-md"
-                    as-child
+                    to="#pricing"
                     @click="open = false"
                   >
-                    <a href="#pricing">Pricing</a>
+                    Pricing
                   </UButton>
                   <UButton
                     variant="ghost"
                     class="justify-start text-md"
-                    as-child
+                    to="#faq"
                     @click="open = false"
                   >
-                    <a href="#faq">FAQ</a>
+                    FAQ
                   </UButton>
                 </div>
                 <div class="flex shrink w-full items-center gap-4">
                   <div class="flex-1 flex gap-4">
-                    <UButton variant="outline" class="w-1/3 justify-center items-center" as-child>
-                      <ULink to="/login">
-                        Sign In
-                      </ULink>
+                    <UButton variant="outline" class="w-1/3 justify-center items-center" to="/login">
+                      Sign In
                     </UButton>
-                    <UButton class="w-1/3 justify-center items-center" as-child>
-                      <ULink to="/register">
-                        Sign Up
-                      </ULink>
+                    <UButton class="w-1/3 justify-center items-center" to="/register">
+                      Sign Up
                     </UButton>
                   </div>
                   <LazyThemeButton />
@@ -197,7 +191,7 @@ const faqs = [
     <section class="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div class="container mx-auto py-16 sm:py-24 flex flex-col items-center justify-center text-center">
         <div class="mx-auto max-w-4xl">
-          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
+          <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">
             A Modern SaaS Template with
             <span class="text-primary block">
               Nuxt & Cloudflare
@@ -209,14 +203,16 @@ const faqs = [
             want to ship fast.
           </p>
           <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <UButton size="lg" class="w-full sm:w-auto max-w-3/5">
+            <UButton size="lg" class="w-full sm:w-auto max-w-3/5" icon="i-lucide-arrow-right" trailing to="/register">
               Get Started
-              <UIcon name="i-lucide-arrow-right" class="ml-2 h-4 w-4" />
             </UButton>
             <UButton
               variant="outline"
               size="lg"
               class="w-full sm:w-auto max-w-3/5"
+              icon="i-lucide-github"
+              to="https://github.com/lucasscarioca/nuxtcf"
+              target="_blank"
             >
               Star on GitHub
             </UButton>
@@ -323,6 +319,7 @@ const faqs = [
             <UButton
               class="mt-8 w-full justify-center"
               :variant="plan.popular ? 'solid' : 'soft'"
+              to="/register"
             >
               Get Started
             </UButton>
@@ -363,16 +360,18 @@ const faqs = [
           grow their operations.
         </p>
         <div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <UButton size="lg" class="w-full sm:w-auto max-w-3/5">
+          <UButton size="lg" class="w-full sm:w-auto max-w-3/5" icon="i-lucide-arrow-right" trailing to="/register">
             Get Started
-            <UIcon name="i-lucide-arrow-right" class="ml-2 h-4 w-4" />
           </UButton>
           <UButton
             variant="outline"
             size="lg"
             class="w-full sm:w-auto max-w-3/5"
+            icon="i-lucide-github"
+            to="https://github.com/lucasscarioca/nuxtcf"
+            target="_blank"
           >
-            Contact Sales
+            Star on GitHub
           </UButton>
         </div>
       </UCard>
