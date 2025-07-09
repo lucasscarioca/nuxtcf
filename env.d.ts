@@ -1,7 +1,8 @@
+/* eslint-disable ts/consistent-type-definitions */
 /// <reference types="./worker-configuration.d.ts" />
 
 declare module 'h3' {
-  type H3EventContext = {
+  interface H3EventContext {
     cf: CfProperties
     cloudflare: {
       request: Request

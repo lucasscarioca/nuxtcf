@@ -1,4 +1,5 @@
 import antfu from '@antfu/eslint-config'
+import { globalIgnores } from 'eslint/config'
 
 // @ts-check
 import withNuxt from './.nuxt/eslint.config.mjs'
@@ -40,4 +41,5 @@ export default withNuxt(
       },
     },
   ),
+  globalIgnores(['server/db/migrations/']),
 )
