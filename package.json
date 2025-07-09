@@ -2,6 +2,7 @@
   "name": "nuxt-app",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@10.11.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "nuxt build",
