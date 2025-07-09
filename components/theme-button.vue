@@ -1,18 +1,9 @@
-<script setup>
-const colorMode = useColorMode()
-
-const isDark = computed({
-  get() {
-    return colorMode.value === 'dark'
-  },
-  set(_isDark) {
-    colorMode.preference = _isDark ? 'dark' : 'light'
-  },
-})
+<script setup lang="ts">
+const { isDark, forced } = useTheme()
 </script>
 
 <template>
-  <ClientOnly v-if="!colorMode?.forced">
+  <ClientOnly v-if="!forced">
     <UButton
       :icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
       color="neutral"

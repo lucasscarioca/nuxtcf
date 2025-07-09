@@ -7,12 +7,25 @@ Nuxt + Cloudflare + a few more things. Why not NuxtHub or NuxFlare? Because I do
 - [x] Nuxt
 - [x] Cloudflare
 - [x] NuxtUI + Tailwindcss
-- [ ] Pinia
+- [x] DrizzleORM
 - [ ] Better Auth
-- [ ] DrizzleORM
+- [ ] Pinia
 - [ ] Stripe
+- [ ] Resend
+
+## Features
+
+- [x] Landing Page
+- [x] Auth Pages (Login, Register and Forgot Password)
+- [x] Dashboard Page (Blank)
+- [ ] Settings Page
+- [ ] Billing Page
 - [ ] Tests
+- [ ] PWA support
 - [ ] i18n
+- [ ] API Docs ?
+- [ ] MCP-ready backend ?
+- [ ] Open Telemetry
 
 ## Setup
 

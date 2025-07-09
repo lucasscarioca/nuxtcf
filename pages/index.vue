@@ -272,7 +272,7 @@ const faqs = [
     >
       <div class="mx-auto max-w-4xl text-center">
         <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">
-          Simple, transparent pricing
+          Mock pricing
         </h2>
         <p class="mt-4 text-base sm:text-lg text-muted-foreground">
           Choose the plan that&apos;s right for your business. All
