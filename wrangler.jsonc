@@ -8,7 +8,10 @@
     "directory": "./.output/public/"
   },
   "observability": {
-    "enabled": true
+    "logs": {
+      "enabled": false
+    },
+    "enabled": false
   },
   "d1_databases": [
     {
