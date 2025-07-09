@@ -32,8 +32,8 @@ Nuxt + Cloudflare + a few more things. Why not NuxtHub or NuxFlare? Because I do
 Make sure to install dependencies:
 
 ```bash
-# npm
-npm install
+# pnpm
+pnpm install
 ```
 
 ## Development Server
@@ -41,8 +41,8 @@ npm install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
+# pnpm
+pnpm dev
 ```
 
 ## Production
@@ -50,13 +50,13 @@ npm run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
+# pnpm
+pnpm build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
+# pnpm
+pnpm preview
 ```
