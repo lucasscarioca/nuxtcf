@@ -395,36 +395,32 @@ const faqs = [
             </h4>
             <ul class="mt-4 space-y-2 text-sm text-muted">
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   Features
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   Pricing
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   Integrations
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   API
-                </a>
+                </span>
               </li>
             </ul>
           </div>
@@ -434,36 +430,32 @@ const faqs = [
             </h4>
             <ul class="mt-4 space-y-2 text-sm text-muted">
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   About
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   Blog
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   Careers
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   Contact
-                </a>
+                </span>
               </li>
             </ul>
           </div>
@@ -473,36 +465,32 @@ const faqs = [
             </h4>
             <ul class="mt-4 space-y-2 text-sm text-muted">
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   Help Center
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   Documentation
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   Status
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="#"
+                <span
                   class="hover:text-primary"
                 >
                   Security
-                </a>
+                </span>
               </li>
             </ul>
           </div>
@@ -514,15 +502,15 @@ const faqs = [
           </p>
           <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
             <div class="flex space-x-6 text-sm text-muted">
-              <a href="#" class="hover:text-primary">
+              <span class="hover:text-primary">
                 Privacy Policy
-              </a>
-              <a href="#" class="hover:text-primary">
+              </span>
+              <span class="hover:text-primary">
                 Terms of Service
-              </a>
-              <a href="#" class="hover:text-primary">
+              </span>
+              <span class="hover:text-primary">
                 Cookie Policy
-              </a>
+              </span>
             </div>
             <LazyThemeButton />
           </div>

@@ -104,8 +104,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         </UCard>
         <div class="text-toned *:[a]:hover:text-primary text-center text-xs text-balance *:[a]:underline *:[a]:underline-offset-4">
           By clicking continue, you agree to our
-          <a href="#">Terms of Service</a> and
-          <a href="#">Privacy Policy</a>.
+          <span class="hover:text-primary">Terms of Service</span> and
+          <span class="hover:text-primary">Privacy Policy</span>.
         </div>
       </div>
     </div>
