@@ -1,6 +1,6 @@
-export default defineEventHandler(async (event) => {
-  const users = await useDb(event).select({
-    name: tables.users.name,
-  }).from(tables.users).all()
+export default defineEventHandler(async () => {
+  const users = await useDb().select({
+    name: tables.user.name,
+  }).from(tables.user).all()
   return users
 })

@@ -1,6 +1,10 @@
+/* eslint-disable node/no-process-env */
+import dotenv from 'dotenv'
 import { defineConfig } from 'drizzle-kit'
 
-import env from './lib/env'
+dotenv.config({
+  path: './.dev.vars',
+})
 
 export default defineConfig({
   dialect: 'sqlite',
@@ -9,8 +13,8 @@ export default defineConfig({
   driver: 'd1-http',
   casing: 'snake_case',
   dbCredentials: {
-    accountId: env.CLOUDFLARE_ACCOUNT_ID!,
-    databaseId: env.CLOUDFLARE_DATABASE_ID!,
-    token: env.CLOUDFLARE_D1_TOKEN!,
+    accountId: process.env.CLOUDFLARE_ACCOUNT_ID!,
+    databaseId: process.env.CLOUDFLARE_DATABASE_ID!,
+    token: process.env.CLOUDFLARE_D1_TOKEN!,
   },
 })
