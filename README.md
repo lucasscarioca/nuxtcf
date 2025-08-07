@@ -1,6 +1,6 @@
 # Nuxtcf Starter Template
 
-Nuxt + Cloudflare + a few more things. Why not NuxtHub or NuxFlare? Because I don't want a Cloudflare wrapper, specially not a paid one. Cloudflare is easy to use as it is, unlike the chaotic mess of AWS.
+Nuxt + Cloudflare + a few more things.
 
 ## Stack
 
